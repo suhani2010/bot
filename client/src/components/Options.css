@@ -1,0 +1,116 @@
+/* OPTIONS FOLDER */
+
+.options-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.option-button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid green;
+  margin: 3px;
+}
+
+
+/* RAISE ISSUE FOLDER */
+
+.quiz-container {
+  background: #28334aff;
+  padding: 1rem 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+  text-align: center;
+  font-size: 0.9rem;
+  color: white;
+}
+.prev-btn,
+.next-btn {
+  font-size: 0.99rem;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: white;
+}
+.mybutton {
+  font-size: 0.99rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: transparent;
+  border-color: #28334aff;
+  padding: 0.4em;
+  margin: 0.4em;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.score {
+  background: #28334aff;
+  color: white;
+  padding: 1.1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+}
+.btnn1{
+  color:azure;
+  border-color: azure;
+}
+
+.issue-list {
+  padding: 0;
+  list-style:none;
+}
+
+.issue-list-item {
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.issue-list-item-url {
+  /* text-decoration: none;
+  margin: 6px;
+  display: block;
+  color: #1d1d1d;
+  background-color: #f1f1f1;
+  padding: 8px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 4px rgba(150, 149, 149, 0.4); */
+  padding: 0.5rem;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid green;
+  margin: 3px;
+}
+
+/*  ENQUIRY LIST FOLDER */
+
+.enquiry-list {
+  padding: 0;
+  list-style:none;
+}
+
+.enquiry-list-item {
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.enquiry-list-item-url {
+  /* text-decoration: none;
+  margin: 6px;
+  display: block;
+  color: #1d1d1d;
+  background-color: #f1f1f1;
+  padding: 8px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 4px rgba(150, 149, 149, 0.4); */
+  padding: 0.5rem;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid green;
+  margin: 3px;
+}
